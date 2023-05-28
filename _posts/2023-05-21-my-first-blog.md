@@ -3,6 +3,7 @@ title: A Start
 time: '2023-05-21'
 featured: images/pic01.jpg
 layout: post
+tags: knowledge life
 ---
 
 Write a blog to push myself. Only input is far from enough, need to have output to determine whether I really absorb. Also convenient for future review.

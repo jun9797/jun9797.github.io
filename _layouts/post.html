@@ -11,9 +11,18 @@ layout: default
 						<h2 align="center">{{ page.title }}</h2>
 						<p></p>
 						<h3 align="center">{{ page.time }}</h3>
+						<div style="text-align: center;">
+							<span align="center"> Tags: [
+								{% for tag in page.tags %}
+									{% capture tag_name %}{{ tag }}{% endcapture %}
+										<a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+								{% endfor %}
+							]</span>
+						</div>
 					</header>
 					{{ page.content }}
 				</section>
 			</div>
 		</div>
 	</div>
+	

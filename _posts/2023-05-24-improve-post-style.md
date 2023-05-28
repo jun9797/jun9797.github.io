@@ -3,6 +3,7 @@ title: Progress & some mumbles
 time: '2023-05-24'
 featured: images/pic02.jpg
 layout: post
+tags: knowledge life
 ---
 
 
