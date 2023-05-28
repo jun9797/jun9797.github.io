@@ -31,9 +31,9 @@
 			<h2>Recent Blog Posts</h2>
 		</header>
 		<ul class="style">
-		{% for post in site.posts offset: 0 limit: 2 %}
+		{% for post in site.posts offset: 0 limit: 3 %}
 			<li>
-				<p class="posted">{{ post.date | date_to_string }}  |  (10 )  Comments</p>
+				<p class="posted">{{ post.date | date_to_string }}  |  (0)  Comments</p>
 				<p><a href="{{ site.prefix }}{{ post.url }}">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</a></p>
 			</li>
 		{% endfor %}
